@@ -1,0 +1,15 @@
+#HOST_CONFIGURATION=production/host_config.json
+REST_PORT=3001
+APP_ID=oai-pmh-service
+BASE_URL=http://localhost
+LOG_LEVEL=debug
+REQUEST_LIMIT=100kb
+DB_HOST=localhost
+DB_PORT=27017
+DB_USER=
+DB_PASS=
+DATABASE=dacat-next
+COLLECTION=Publication
+NAME=oai-provider-service
+CONNECTOR=mongodb
+ADMIN_USER_EMAIL=nobody@htw-berlin.de
