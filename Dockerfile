@@ -1,8 +1,5 @@
 FROM node:18-alpine
 
-# Install necessary packages for multi-architecture builds
-RUN apk add --no-cache qemu qemu-user-static
-
 WORKDIR /home/node/app
 
 COPY package*.json /home/node/app/
